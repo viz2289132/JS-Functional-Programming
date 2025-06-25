@@ -117,12 +117,12 @@
 
 //8. Capitalize the first letter of every word in a sentence.
 
-let sentence = "Seema is an intelligent girl"
+// let sentence = "Seema is an intelligent girl"
 
-let result  = sentence.split(" ").map((elem)=>{
-    return (elem.charAt().toUpperCase() + elem.slice(1))
-})
+// let result  = sentence.split(" ").map((elem)=>{
+//     return (elem.charAt().toUpperCase() + elem.slice(1))
+// })
 
-let finalStr = result.join(" ");
+// let finalStr = result.join(" ");
 
-console.log(finalStr)
+// console.log(finalStr)
