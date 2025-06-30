@@ -1,0 +1,21 @@
+.box{
+    background-color: yellow;
+    padding: 10px;
+    max-width: 80%;
+}
+
+.box2{
+    font-size: 20px;
+    text-decoration: underline ;
+    max-width: 80%;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
