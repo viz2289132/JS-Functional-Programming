@@ -75,3 +75,46 @@
 //    btn.addEventListener('click' , ()=>{
 //     body.classList.toggle('dark')
 //    })
+
+//Event handling
+
+// let incBtn = document.querySelector('.incBtn')
+// let decBtn = document.querySelector('.decBtn')
+// let counter = document.querySelector('.counter')
+// let count = 0;
+
+// incBtn.addEventListener('click' , ()=>{
+//    count++;
+//    counter.textContent = count;
+// })
+
+
+// decBtn.addEventListener('click' , ()=>{
+//     count--;
+//    counter.textContent = count;
+// })
+
+//Create a simple form and display the submitted details on the webpage. Ensure
+//that if any field is left empty, the form should not be submitted.
+
+let form = document.querySelector('form')
+let nameInput = document.querySelector('#name')
+let emailInput  = document.querySelector('#email')
+let submitBtn = document.querySelector('.submitBtn')
+let body = document.querySelector('body')
+
+form.addEventListener('submit' , (e)=>{
+    e.preventDefault();
+   if( !nameInput.value ||  !emailInput.value){
+    alert("fill all the details")
+    return ;
+   }
+    
+    let div = document.createElement('div');
+    div.innerHTML = `
+    <p>${nameInput.value}</p>
+    <p>${emailInput.value}</p>
+    `
+
+    body.append(div)
+})

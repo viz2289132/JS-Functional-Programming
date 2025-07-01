@@ -19,3 +19,36 @@
     background-color: black;
     color: white;
 }
+
+h1{
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.items{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    border-style: solid;
+    
+}
+
+.item{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    border-style: solid ;
+    font-size: 50px;
+    
+
+}
+
+.btn{
+
+}
