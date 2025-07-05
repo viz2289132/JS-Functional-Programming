@@ -1,0 +1,1 @@
+let isEmptyObject = Object.keys(obj).length < 1 ;
